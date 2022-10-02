@@ -151,4 +151,6 @@ tth-ipfs.com
 upload.global
 via0.com
 video.oneloveipfs.com
+w3s.link
+web.storage
 # END
