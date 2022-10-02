@@ -1,7 +1,7 @@
-# Blocklist: Remote Monitoring and Management Software (RMM), 
+# Blocklist: Remote Monitoring and Management Software (RMM), Webhooks, DNS Tunnel Services
 # https://raw.githubusercontent.com/maravento/blackweb/master/bwupdate/lst/remote.txt
 # https://github.com/SigmaHQ/sigma/pull/2841/files/
-# Uncomment if you are using a specific RMM and it needs to work.
+# Uncomment if you are using a specific services.
 0.0.0.0 123rescue.com
 0.0.0.0 accounts.join.me
 0.0.0.0 accounts.logme.in
