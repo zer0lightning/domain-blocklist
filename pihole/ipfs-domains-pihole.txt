@@ -152,4 +152,6 @@
 0.0.0.0 upload.global
 0.0.0.0 via0.com
 0.0.0.0 video.oneloveipfs.com
+0.0.0.0 w3s.link
+0.0.0.0 web.storage
 # END
