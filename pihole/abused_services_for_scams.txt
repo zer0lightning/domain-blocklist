@@ -1,0 +1,102 @@
+# Legitimate Services abused in scams (IRS, CRA, Amazon, Paypal, Best Buy, Refund Scams)
+# Compiled by: https://github.com/zer0lightning/
+# Why? Just because I can, also if you are not using these services anyway, probably good to block it.
+# Rampant scams are wrecking havok everyday, education and awareness is the best defence.
+# I hope you can use it, uncomment a service if you need it.
+#
+# Money Transfer Service
+0.0.0.0 paypal.com
+0.0.0.0 sendwave.com
+0.0.0.0 westernunion.com
+0.0.0.0 zellepay.com
+0.0.0.0 revolut.com
+0.0.0.0 remitly.com
+0.0.0.0 wise.com
+0.0.0.0 worldremit.com
+0.0.0.0 moneygram.com
+0.0.0.0 xoom.com
+0.0.0.0 ofx.com
+0.0.0.0 worldfirst.com
+0.0.0.0 xe.com
+0.0.0.0 torfx.com
+0.0.0.0 currencyfair.com
+0.0.0.0 currencytransfer.com
+0.0.0.0 rationalfx.com
+0.0.0.0 riamoneytransfer.com
+0.0.0.0 skrill.com
+0.0.0.0 orbitremit.com
+0.0.0.0 paysera.com
+0.0.0.0 instarem.com
+0.0.0.0 vertofx.com
+0.0.0.0 currenciesdirect.com
+0.0.0.0 payoneer.com
+0.0.0.0 azimo.com
+# Gifcards Shops
+0.0.0.0 giftcards.ca
+0.0.0.0 giftofchoice.ca
+0.0.0.0 giftcardwarehouse.ca
+0.0.0.0 dundle.com
+0.0.0.0 giftcertificates.ca
+0.0.0.0 ding.com
+0.0.0.0 mygiftcardsupply.com
+0.0.0.0 giftcash.com
+# CardSwap
+0.0.0.0 cardswap.ca
+0.0.0.0 giftcardgranny.com
+0.0.0.0 raise.com
+0.0.0.0 clipkard.com
+0.0.0.0 gameflip.com
+0.0.0.0 giftcardbin.com
+0.0.0.0 cardsell.app
+0.0.0.0 mygiftcardsplus.ca
+# Crypto Exchanges
+0.0.0.0 binance.com
+0.0.0.0 coinbase.com
+0.0.0.0 ftx.comen
+0.0.0.0 kraken.com
+0.0.0.0 gate.io
+0.0.0.0 kucoin.com
+0.0.0.0 binance.us
+0.0.0.0 gemini.com
+0.0.0.0 ftx.us
+0.0.0.0 mexc.com
+0.0.0.0 huobi.com
+0.0.0.0 coincheck.com
+0.0.0.0 lbank.info
+0.0.0.0 bybit.com
+0.0.0.0 bitflyer.com
+0.0.0.0 crypto.com
+0.0.0.0 bithumb.com
+0.0.0.0 okx.com
+0.0.0.0 phemex.com
+0.0.0.0 coinone.co.kr
+0.0.0.0 bittrex.com
+0.0.0.0 poloniex.com
+0.0.0.0 korbit.co.kr
+0.0.0.0 btcex.com
+0.0.0.0 bitmart.com
+0.0.0.0 okcoin.com
+0.0.0.0 bitmex.com
+0.0.0.0 deepcoin.com
+0.0.0.0 probit.com
+0.0.0.0 big.one
+0.0.0.0 delta.exchange
+0.0.0.0 compound.finance
+0.0.0.0 bisq.network
+0.0.0.0 uphold.com
+0.0.0.0 coincola.com
+# Giftcard Convertion or Crypto
+0.0.0.0 paxful.com
+0.0.0.0 coincola.com
+0.0.0.0 bitrefill.com
+0.0.0.0 coingate.com
+0.0.0.0 prestmit.com
+0.0.0.0 bitcoinwell.com
+0.0.0.0 bitpay.com
+0.0.0.0 localbitcoins.com
+0.0.0.0 paybis.com
+0.0.0.0 buybitcoinworldwide.com
+0.0.0.0 coinmama.com
+0.0.0.0 coinsbee.com
+0.0.0.0 localcryptos.com
+0.0.0.0 bitcoin.com
