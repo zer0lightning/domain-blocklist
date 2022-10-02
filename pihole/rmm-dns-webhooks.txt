@@ -23,11 +23,6 @@
 0.0.0.0 getgo.com
 0.0.0.0 gotomypc.com
 0.0.0.0 hamachi.cc
-0.0.0.0 help-qa.join.me
-0.0.0.0 help.join.me
-0.0.0.0 help.logmein.com
-0.0.0.0 i.join.me
-0.0.0.0 i2.join.me
 0.0.0.0 internapcdn.net
 0.0.0.0 join.me
 0.0.0.0 kaseya.net
