@@ -3,11 +3,13 @@
 # https://github.com/SigmaHQ/sigma/pull/2841/files/
 # Uncomment if you are using a specific service.
 0.0.0.0 123rescue.com
+0.0.0.0 aeroadmin.com
 0.0.0.0 agent.jumpcloud.com
 0.0.0.0 agentreporting.atera.com
 0.0.0.0 ammyy.com
 0.0.0.0 anydesk.com
 0.0.0.0 anydesk.es
+0.0.0.0 anyviewer.com
 0.0.0.0 app.kabuto.io
 0.0.0.0 atera.com
 0.0.0.0 attachments.servably.com
@@ -17,8 +19,12 @@
 0.0.0.0 cub.by
 0.0.0.0 cubby.com
 0.0.0.0 cubbyusercontent.com
+0.0.0.0 cybelesoft.com
+0.0.0.0 distantdesktop.com
+0.0.0.0 deskroll.com
 0.0.0.0 downloads.zohocdn.com
 0.0.0.0 dyngate.com
+0.0.0.0 dwservice.net
 0.0.0.0 e.join.me
 0.0.0.0 e.lastpass.com
 0.0.0.0 e.logmein.com
@@ -26,6 +32,9 @@
 0.0.0.0 gotomypc.com
 0.0.0.0 hamachi.cc
 0.0.0.0 internapcdn.net
+0.0.0.0 imperosoftware.com
+0.0.0.0 iperiusremote.com
+0.0.0.0 leostream.com
 0.0.0.0 join.me
 0.0.0.0 kabutoservices.com
 0.0.0.0 kaseya.net
@@ -43,11 +52,15 @@
 0.0.0.0 logmeinrescue.eu
 0.0.0.0 logmeinusercontent.com
 0.0.0.0 meldium.com
+0.0.0.0 mycloudit.com
+0.0.0.0 netsupportsoftware.com
 0.0.0.0 parsec.app
 0.0.0.0 playanext.com
 0.0.0.0 remotedesktop-pa.googleapis.com
 0.0.0.0 remotepc.com
+0.0.0.0 rview.com
 0.0.0.0 services.vnc.com
+0.0.0.0 showmypc.com
 0.0.0.0 splashtop.com
 0.0.0.0 support.me
 0.0.0.0 supremocontrol.com
