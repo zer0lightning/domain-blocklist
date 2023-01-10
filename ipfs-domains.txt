@@ -95,7 +95,6 @@ ipfs.moonicorn.network
 ipfs.mrh.io
 ipfs.mttk.net
 ipfs.namebase.io
-ipfs.netw0rk.io
 ipfs.oceanprotocol.com
 ipfs.overpi.com
 ipfs.oxerr.net
