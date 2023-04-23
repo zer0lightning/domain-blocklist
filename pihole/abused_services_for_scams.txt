@@ -34,6 +34,10 @@
 0.0.0.0 currenciesdirect.com
 0.0.0.0 payoneer.com
 0.0.0.0 azimo.com
+0.0.0.0 remit2india.com
+0.0.0.0 dahabshiil.com
+0.0.0.0 emtwerx.com
+0.0.0.0 tipalti.com
 0.0.0.0 www.paypal.com
 0.0.0.0 www.sendwave.com
 0.0.0.0 www.westernunion.com
@@ -61,6 +65,10 @@
 0.0.0.0 www.currenciesdirect.com
 0.0.0.0 www.payoneer.com
 0.0.0.0 www.azimo.com
+0.0.0.0 www.remit2india.com
+0.0.0.0 www.dahabshiil.com
+0.0.0.0 www.emtwerx.com
+0.0.0.0 www.tipalti.com
 # Gifcards Shops
 0.0.0.0 giftcards.ca
 0.0.0.0 giftofchoice.ca
