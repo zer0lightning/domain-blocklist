@@ -16,6 +16,7 @@
 0.0.0.0 wise.com
 0.0.0.0 worldremit.com
 0.0.0.0 moneygram.com
+0.0.0.0 monito.com
 0.0.0.0 xoom.com
 0.0.0.0 ofx.com
 0.0.0.0 worldfirst.com
@@ -42,6 +43,7 @@
 0.0.0.0 www.wise.com
 0.0.0.0 www.worldremit.com
 0.0.0.0 www.moneygram.com
+0.0.0.0 www.monito.com
 0.0.0.0 www.xoom.com
 0.0.0.0 www.ofx.com
 0.0.0.0 www.worldfirst.com
