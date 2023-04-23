@@ -7,6 +7,7 @@
 0.0.0.0 10.via0.com
 0.0.0.0 2read.net
 0.0.0.0 3cloud.ee
+0.0.0.0 4everland.io
 0.0.0.0 alexdav.id
 0.0.0.0 ap.siderus.io
 0.0.0.0 api.wisdom.sh
@@ -20,9 +21,11 @@
 0.0.0.0 cloudfront.net
 0.0.0.0 coinsh.red
 0.0.0.0 crustwebsites.net
+0.0.0.0 cthd.icu
 0.0.0.0 d26g9c7mfuzstv.cloudfront.net
 0.0.0.0 dweb.eu.org
 0.0.0.0 dweb.link
+0.0.0.0 web.storage
 0.0.0.0 eu.siderus.io
 0.0.0.0 filecoin.io
 0.0.0.0 fleek.co
@@ -43,6 +46,7 @@
 0.0.0.0 hub.textile.io
 0.0.0.0 infura-ipfs.io
 0.0.0.0 ipfs-cdn.aragon.ventures
+0.0.0.0 ipfs-gateway.cloud
 0.0.0.0 ipfs-nosub.stibarc.com
 0.0.0.0 ipfs.1-2.dev
 0.0.0.0 ipfs.2read.net
@@ -82,6 +86,7 @@
 0.0.0.0 ipfs.jbb.one
 0.0.0.0 ipfs.jeroendeneef.com
 0.0.0.0 ipfs.jes.xxx
+0.0.0.0 ipfs.jpu.jp
 0.0.0.0 ipfs.k1ic.com
 0.0.0.0 ipfs.kaleido.art
 0.0.0.0 ipfs.kavin.rocks
@@ -90,6 +95,7 @@
 0.0.0.0 ipfs.lain.la
 0.0.0.0 ipfs.lc
 0.0.0.0 ipfs.leiyun.org
+0.0.0.0 ipfs.litnet.work
 0.0.0.0 ipfs.macholibre.org
 0.0.0.0 ipfs.mihir.ch
 0.0.0.0 ipfs.moonicorn.network
@@ -108,9 +114,12 @@
 0.0.0.0 ipfs.sloppyta.co
 0.0.0.0 ipfs.smartholdem.io
 0.0.0.0 ipfs.smartsignature.io
+0.0.0.0 ipfs.soul-network.com
 0.0.0.0 ipfs.stibarc.com
 0.0.0.0 ipfs.stibarc.gq
 0.0.0.0 ipfs.taxi
+0.0.0.0 ipfs.tayfundogdas.me
+0.0.0.0 ipfs.tech
 0.0.0.0 ipfs.telos.miami
 0.0.0.0 ipfs.tribecap.co
 0.0.0.0 ipfs.trusti.id
@@ -153,10 +162,10 @@
 0.0.0.0 via0.com
 0.0.0.0 video.oneloveipfs.com
 0.0.0.0 w3s.link
-0.0.0.0 web.storage
 0.0.0.0 www.10.via0.com
 0.0.0.0 www.2read.net
 0.0.0.0 www.3cloud.ee
+0.0.0.0 www.4everland.io
 0.0.0.0 www.alexdav.id
 0.0.0.0 www.ap.siderus.io
 0.0.0.0 www.api.wisdom.sh
@@ -170,6 +179,7 @@
 0.0.0.0 www.cloudfront.net
 0.0.0.0 www.coinsh.red
 0.0.0.0 www.crustwebsites.net
+0.0.0.0 www.cthd.icu
 0.0.0.0 www.d26g9c7mfuzstv.cloudfront.net
 0.0.0.0 www.dweb.eu.org
 0.0.0.0 www.dweb.link
@@ -193,6 +203,7 @@
 0.0.0.0 www.hub.textile.io
 0.0.0.0 www.infura-ipfs.io
 0.0.0.0 www.ipfs-cdn.aragon.ventures
+0.0.0.0 www.ipfs-gateway.cloud
 0.0.0.0 www.ipfs-nosub.stibarc.com
 0.0.0.0 www.ipfs.1-2.dev
 0.0.0.0 www.ipfs.2read.net
@@ -232,6 +243,7 @@
 0.0.0.0 www.ipfs.jbb.one
 0.0.0.0 www.ipfs.jeroendeneef.com
 0.0.0.0 www.ipfs.jes.xxx
+0.0.0.0 www.ipfs.jpu.jp
 0.0.0.0 www.ipfs.k1ic.com
 0.0.0.0 www.ipfs.kaleido.art
 0.0.0.0 www.ipfs.kavin.rocks
@@ -240,6 +252,7 @@
 0.0.0.0 www.ipfs.lain.la
 0.0.0.0 www.ipfs.lc
 0.0.0.0 www.ipfs.leiyun.org
+0.0.0.0 www.ipfs.litnet.work
 0.0.0.0 www.ipfs.macholibre.org
 0.0.0.0 www.ipfs.mihir.ch
 0.0.0.0 www.ipfs.moonicorn.network
@@ -258,9 +271,12 @@
 0.0.0.0 www.ipfs.sloppyta.co
 0.0.0.0 www.ipfs.smartholdem.io
 0.0.0.0 www.ipfs.smartsignature.io
+0.0.0.0 www.ipfs.soul-network.com
 0.0.0.0 www.ipfs.stibarc.com
 0.0.0.0 www.ipfs.stibarc.gq
 0.0.0.0 www.ipfs.taxi
+0.0.0.0 www.ipfs.tayfundogdas.me
+0.0.0.0 www.ipfs.tech
 0.0.0.0 www.ipfs.telos.miami
 0.0.0.0 www.ipfs.tribecap.co
 0.0.0.0 www.ipfs.trusti.id
