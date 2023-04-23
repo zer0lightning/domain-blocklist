@@ -1,3 +1,6 @@
+! Title: Legitimate Services abused in scams (IRS, CRA, Amazon, Paypal, Best Buy, Refund Scams)
+! Updated: 2023-04-23
+! Homepage: https://github.com/zer0lightning/domain-blocklist/tree/main/pihole
 # Legitimate Services abused in scams (IRS, CRA, Amazon, Paypal, Best Buy, Refund Scams)
 # Compiled by: https://github.com/zer0lightning/
 # Why? Just because I can, also if you are not using these services anyway, probably good to block it.
