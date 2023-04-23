@@ -1,4 +1,4 @@
-# Updated 2022-05-25
+# Updated 2023-04-23
 # IPFS Domains
 # https://ipfs.github.io/public-gateway-checker/
 # https://luke.lol/ipfs.php
@@ -6,6 +6,7 @@
 10.via0.com
 2read.net
 3cloud.ee
+4everland.io
 alexdav.id
 ap.siderus.io
 api.wisdom.sh
@@ -19,9 +20,11 @@ cloudflare-ipfs.com
 cloudfront.net
 coinsh.red
 crustwebsites.net
+cthd.icu
 d26g9c7mfuzstv.cloudfront.net
 dweb.eu.org
 dweb.link
+web.storage
 eu.siderus.io
 filecoin.io
 fleek.co
@@ -42,6 +45,7 @@ hashnews.k1ic.com
 hub.textile.io
 infura-ipfs.io
 ipfs-cdn.aragon.ventures
+ipfs-gateway.cloud
 ipfs-nosub.stibarc.com
 ipfs.1-2.dev
 ipfs.2read.net
@@ -81,6 +85,7 @@ ipfs.jacl.tech
 ipfs.jbb.one
 ipfs.jeroendeneef.com
 ipfs.jes.xxx
+ipfs.jpu.jp
 ipfs.k1ic.com
 ipfs.kaleido.art
 ipfs.kavin.rocks
@@ -89,12 +94,14 @@ ipfs.kxv.io
 ipfs.lain.la
 ipfs.lc
 ipfs.leiyun.org
+ipfs.litnet.work
 ipfs.macholibre.org
 ipfs.mihir.ch
 ipfs.moonicorn.network
 ipfs.mrh.io
 ipfs.mttk.net
 ipfs.namebase.io
+ipfs.netw0rk.io
 ipfs.oceanprotocol.com
 ipfs.overpi.com
 ipfs.oxerr.net
@@ -106,9 +113,12 @@ ipfs.slang.cx
 ipfs.sloppyta.co
 ipfs.smartholdem.io
 ipfs.smartsignature.io
+ipfs.soul-network.com
 ipfs.stibarc.com
 ipfs.stibarc.gq
 ipfs.taxi
+ipfs.tayfundogdas.me
+ipfs.tech
 ipfs.telos.miami
 ipfs.tribecap.co
 ipfs.trusti.id
