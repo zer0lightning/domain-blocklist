@@ -38,6 +38,7 @@
 0.0.0.0 dahabshiil.com
 0.0.0.0 emtwerx.com
 0.0.0.0 tipalti.com
+0.0.0.0 exiap.ca
 0.0.0.0 www.paypal.com
 0.0.0.0 www.sendwave.com
 0.0.0.0 www.westernunion.com
@@ -69,6 +70,7 @@
 0.0.0.0 www.dahabshiil.com
 0.0.0.0 www.emtwerx.com
 0.0.0.0 www.tipalti.com
+0.0.0.0 www.exiap.ca
 # Gifcards Shops
 0.0.0.0 giftcards.ca
 0.0.0.0 giftofchoice.ca
