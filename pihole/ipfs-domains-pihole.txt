@@ -102,7 +102,6 @@
 0.0.0.0 ipfs.mrh.io
 0.0.0.0 ipfs.mttk.net
 0.0.0.0 ipfs.namebase.io
-0.0.0.0 ipfs.netw0rk.io
 0.0.0.0 ipfs.oceanprotocol.com
 0.0.0.0 ipfs.overpi.com
 0.0.0.0 ipfs.oxerr.net
@@ -259,7 +258,6 @@
 0.0.0.0 www.ipfs.mrh.io
 0.0.0.0 www.ipfs.mttk.net
 0.0.0.0 www.ipfs.namebase.io
-0.0.0.0 www.ipfs.netw0rk.io
 0.0.0.0 www.ipfs.oceanprotocol.com
 0.0.0.0 www.ipfs.overpi.com
 0.0.0.0 www.ipfs.oxerr.net
