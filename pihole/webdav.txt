@@ -1,7 +1,6 @@
 # Free WebDAV Storages
 # Ex usage. Bumblebee - https://twitter.com/1ZRR4H/status/1700154693563895964
 0.0.0.0 my.powerfolder.com
-0.0.0.0 my.powerfolder.com
 0.0.0.0 webdav.4shared.com
 0.0.0.0 webdav.storagemadeeasy.com
 0.0.0.0 webdaveu.storagemadeEasy.com
