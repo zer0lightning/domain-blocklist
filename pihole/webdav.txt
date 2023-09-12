@@ -1,0 +1,19 @@
+# Free WebDAV Storages
+# Ex usage. Bumblebee - https://twitter.com/1ZRR4H/status/1700154693563895964
+0.0.0.0 my.powerfolder.com
+0.0.0.0 my.powerfolder.com
+0.0.0.0 webdav.4shared.com
+0.0.0.0 webdav.storagemadeeasy.com
+0.0.0.0 webdaveu.storagemadeEasy.com
+0.0.0.0 pro.woelkli.com
+0.0.0.0 webdav.yandex.com
+0.0.0.0 webdav.cloudme.com
+0.0.0.0 storage.driveonweb.de
+0.0.0.0 dav.idrivesync.com
+0.0.0.0 webdav.hidrive.strato.com
+0.0.0.0 app.koofr.net
+0.0.0.0 webdav.pcloud.com
+0.0.0.0 ewebdav.pcloud.com
+0.0.0.0 webdav1.storegate.com
+0.0.0.0 webdav.yandex.ru
+0.0.0.0 webdav.drivehq.com
