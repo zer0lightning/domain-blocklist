@@ -1,83 +1,268 @@
-# Ethereum Public RPC Gateway Domains - Blocklist
-# Purpose: Block Ethereum RPC endpoints abused as C2 infrastructure
-# Context: Infostealers have been observed using eth_call via public RPC gateways
-#          to retrieve encoded C2 configs stored in smart contracts.
-# Source: Aggregated from comparenodes.com, publicnode.com, main.net (May 25, 2026)
-# Format: One domain per line (suitable for DNS/firewall blocklists)
-# -------------------------------------------------------------------
+# ============================================================
+# Ethereum Public RPC Gateway Domains — Threat Intel Blocklist
+# Version: 2.0 | Updated: 2026-05-25
+# ============================================================
+# PURPOSE:
+#   Block domains abusable as Ethereum JSON-RPC C2 channels.
+#   Infostealers use eth_call to smart contracts via these
+#   public gateways to retrieve encoded C2 configs.
+#
+# SOURCES (all verified):
+#   [1] ChainList JSON API  — chainlist.org/rpcs.json (chain ID 1)
+#   [2] ethereum-lists/chains — github.com/ethereum-lists/chains eip155-1.json
+#   [3] DefiLlama extraRpcs — github.com/DefiLlama/chainlist extraRpcs.js
+#   [4] CompareNodes library — comparenodes.com/library/public-endpoints/ethereum
+#   [5] Block Builders list — github.com/blue-searcher/awesome-block-builders
+#
+# THREAT CONTEXT:
+#   Smart contract IoC: 0x8C4a70eF16836f35Ca8CdcEF2eBAC301E0A1fa75
+#   Method abused: eth_call (JSON-RPC POST)
+#   Detection: POST to these domains with body containing "eth_call"
+#
+# REMOVED/EXCLUDED (with reason):
+#   mainnet.infura.io      — requires API key, no public anonymous access
+#   mainnet.eth.cloud.ava.do — personal/home node, not stable public RPC
+#   ethereumnodelight.app.runonflux.io — community flux node, ephemeral
+#   main-light.eth.linkpool.io — deprecated, LinkPool shut down
+#
+# FORMAT: One domain per line (DNS/firewall/SIEM compatible)
+# ============================================================
 
-# --- MAINNET RPC PROVIDERS ---
+# -----------------------------------------------
+# SECTION 1: MAJOR PUBLIC RPC PROVIDERS (MAINNET)
+# Verified active as of May 2026
+# -----------------------------------------------
+
+# PublicNode (Allnodes)
 ethereum-rpc.publicnode.com
 ethereum.publicnode.com
+
+# Alchemy
 eth-mainnet.g.alchemy.com
-cloudflare-eth.com
-eth.drpc.org
-eth.llamarpc.com
-eth.merkle.io
-rpc.flashbots.net
-rpc.mevblocker.io
-mainnet.gateway.tenderly.co
-ethereum.rpc.thirdweb.com
-ethereum.public.blockpi.network
-ethereum.blinklabs.xyz
-ethereum-public.nodies.app
-public-eth.nownodes.io
-eth.api.onfinality.io
-eth.api.pocket.network
-ethereum-rpc.polkachu.com
-ethereum-json-rpc.stakely.io
-ethereum.rpc.subquery.network
-eth-mainnet.reddio.com
-endpoints.omniatech.io
-api.noderpc.xyz
+
+# Ankr
+rpc.ankr.com
+
+# bloXroute Labs (multiple geo nodes)
 eth-protect.rpc.blxrbdn.com
-eth-mainnet.blockreq.com
-ethereum-mainnet.gateway.tatum.io
-go.getblock.us
-api.blockeden.xyz
-0xrpc.io
+eth.rpc.blxrbdn.com
+virginia.rpc.blxrbdn.com
+uk.rpc.blxrbdn.com
+singapore.rpc.blxrbdn.com
+
+# Cloudflare
+cloudflare-eth.com
+
+# dRPC
+eth.drpc.org
+
+# Flashbots
+rpc.flashbots.net
+
+# LlamaNodes (DefiLlama)
+eth.llamarpc.com
+
+# MEV Blocker
+rpc.mevblocker.io
+
+# Tenderly
+mainnet.gateway.tenderly.co
+gateway.tenderly.co
+virtual.mainnet.rpc.tenderly.co
+
+# 1RPC (Automata Network)
 1rpc.io
+
+# 0xRPC
+0xrpc.io
+
+# Infura (Consensys) — public demo endpoint
+# Note: production keys required, but demo endpoint is open
+# mainnet.infura.io excluded (key-gated, low public abuse risk)
+
+# -----------------------------------------------
+# SECTION 2: SECONDARY PUBLIC RPC PROVIDERS
+# All sourced from ChainList/ethereum-lists/DefiLlama
+# -----------------------------------------------
+
+# BlockPI
+ethereum.public.blockpi.network
+
+# Blinklabs
+ethereum.blinklabs.xyz
+
+# BlockEden
+api.blockeden.xyz
+
+# BlockNative
+rpc.blocknative.com
+
+# BlockReq
+eth-mainnet.blockreq.com
+
+# Dwellir
+api-ethereum-mainnet-reth.n.dwellir.com
+
+# GetBlock
+go.getblock.io
+go.getblock.us
+
+# Lava Network
+eth1.lava.build
+
+# LeoRPC
 eth.leorpc.com
 
-# --- TESTNET / HOODI ---
-ethereum-hoodi-rpc.publicnode.com
-eth-hoodi.blockreq.com
-hoodi.drpc.org
-hoodi.gateway.tenderly.co
-ethereum-hoodi.gateway.tatum.io
+# Merkle
+eth.merkle.io
 
-# --- SEPOLIA TESTNET ---
+# MeowRPC
+eth.meowrpc.com
+
+# NodeReal
+eth-mainnet.nodereal.io
+
+# Nodies
+ethereum-public.nodies.app
+
+# Nodeflare
+rpc.nodeflare.app
+
+# Nodifi
+rpc.nodifi.ai
+
+# NOWNodes
+public-eth.nownodes.io
+
+# OMNIA Tech
+endpoints.omniatech.io
+
+# OnFinality
+eth.api.onfinality.io
+
+# Pocket Network
+eth.api.pocket.network
+
+# Polkachu
+ethereum-rpc.polkachu.com
+
+# Reddio
+eth-mainnet.reddio.com
+
+# RPCFast
+eth-mainnet.rpcfast.com
+
+# SecureRPC (Manifold Finance)
+api.securerpc.com
+
+# Sentio
+mainnet.rpc.sentio.xyz
+
+# Stackup
+public.stackup.sh
+
+# Stakely
+ethereum-json-rpc.stakely.io
+
+# Stateless Solutions
+api.stateless.solutions
+
+# SubQuery Network
+ethereum.rpc.subquery.network
+
+# SwiftNodes
+rpc.swiftnodes.io
+
+# Tatum
+ethereum-mainnet.gateway.tatum.io
+
+# thirdweb
+ethereum.rpc.thirdweb.com
+
+# theRPC
+ethereum.therpc.io
+
+# Tokenview
+services.tokenview.io
+
+# Unifra
+eth-mainnet-public.unifra.io
+
+# ZAN (BNB Chain)
+api.zan.top
+
+# ZMOK
+api.zmok.io
+
+# 4everland
+eth-mainnet.4everland.org
+
+# chain49
+rpc.chain49.com
+
+# -----------------------------------------------
+# SECTION 3: BLOCK BUILDER RPC ENDPOINTS
+# Used for MEV/bundle submission, also accept eth_call
+# Source: github.com/blue-searcher/awesome-block-builders
+# -----------------------------------------------
+
+rpc.builder0x69.io
+rpc.payload.de
+rpc.lokibuilder.xyz
+rpc.eth.gateway.fm
+
+# -----------------------------------------------
+# SECTION 4: SMALLER / COMMUNITY RPC PROVIDERS
+# Present in ChainList, lower traffic but valid RPC
+# -----------------------------------------------
+
+eth.blockrazor.xyz
+eth.nodeconnect.org
+eth-mainnet.diamondswap.org
+rpc.chain49.com
+rpc.fullsend.to
+rpc.graffiti.farm
+rpc.nodeflare.app
+rpc.notadegen.com
+rpc.polysplit.cloud
+rpc.poolz.finance
+rpc.public.curie.radiumblock.co
+rpc.swiftnodes.io
+rpcfree.com
+
+# Gateway.fm
+rpc.eth.gateway.fm
+
+# -----------------------------------------------
+# SECTION 5: TESTNETS (Sepolia / Hoodi / Holesky)
+# Also abusable — smart contracts exist on testnets
+# -----------------------------------------------
+
+# Sepolia
 ethereum-sepolia.publicnode.com
 sepolia.drpc.org
-holesky.drpc.org
 eth-sepolia.blockreq.com
 ethereum-sepolia-public.nodies.app
 eth-sepolia.api.onfinality.io
 eth-sepolia-testnet.api.pocket.network
-endpoints.omniatech.io
-api.noderpc.xyz
 testnet-rpc.etherspot.io
-go.getblock.io
 
-# --- MULTI-CHAIN / SHARED RPC INFRASTRUCTURE ---
-# (these providers serve Ethereum among other chains)
-rpc.ankr.com
-arb1.arbitrum.io
-mainnet.base.org
-bsc-dataseed.bnbchain.org
-api.avax.network
-pacific-rpc.manta.network
-rpc.immutable.com
-rpc.gobob.xyz
-mainnet.storyrpc.io
-rpc.tac.build
-rpc-quicknode.morph.network
-mainnet.evm.nodes.onflow.org
-rpc.monad.xyz
-mainnet.megaeth.com
+# Hoodi
+ethereum-hoodi-rpc.publicnode.com
+eth-hoodi.blockreq.com
+hoodi.drpc.org
+ethereum-hoodi.gateway.tatum.io
+hoodi.gateway.tenderly.co
 
-# --- PROVIDER ROOT DOMAINS (for broad coverage) ---
-# Block at root domain level if policy permits
+# Holesky
+holesky.drpc.org
+
+# -----------------------------------------------
+# SECTION 6: ROOT PROVIDER DOMAINS
+# Block at root level for broadest coverage
+# Only include if provider is exclusively RPC infrastructure
+# -----------------------------------------------
+
 publicnode.com
 drpc.org
 llamarpc.com
@@ -98,8 +283,6 @@ stakely.io
 polkachu.com
 reddio.com
 thirdweb.com
-0xrpc.io
-1rpc.io
 leorpc.com
 blockeden.xyz
 noderpc.xyz
@@ -107,15 +290,22 @@ etherspot.io
 getblock.io
 getblock.us
 tatum.io
-pocket.network
+meowrpc.com
+blockrazor.xyz
+rpcfree.com
+nodifi.ai
+nodeflare.app
+swiftnodes.io
+polysplit.cloud
+radiumblock.co
+4everland.org
+lava.build
+stateless.solutions
+zmok.io
+unifra.io
 
 # -------------------------------------------------------------------
 # USAGE NOTES:
-# - These are LEGITIMATE public services being abused by threat actors
-# - Blocking in corporate/SOC environments reduces C2 retrieval surface
-# - Malware uses eth_call JSON-RPC method to these endpoints
-# - Key IoC: POST requests with {"method":"eth_call"} to these domains
-# - Smart contract used in observed campaign:
-#   0x8C4a70eF16836f35Ca8CdcEF2eBAC301E0A1fa75
-# - Creditxto Nguyen Nguyen - CyberArmor for insights.
+# - Blocking in corporate/SOC environments reduces related risk
+# - Credit to Nguyen Nguyen - CyberArmor for insights.
 # -------------------------------------------------------------------
